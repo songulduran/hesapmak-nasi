@@ -2,8 +2,7 @@
 Bu proje, HTML, CSS ve JavaScript içeren basit bir hesap makinesi uygulamasıdır. Toplama, çıkarma, çarpma ve bölme gibi temel işlemler gerçekleştirilebilir.
 
 🖼 Demo
-Projeyi canlı olarak görmek için: 
-(GitHub Pages bağlayıcınızı buraya ekleyin)
+Projeyi canlı demo:https://songulduran.github.io/hesapmak-nasi/
 
 🛠 Kullanılan Teknolojiler
 HTML – Uygulamanın yapı yapısı
