@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(235, 239, 239);
+  margin:0px;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  background-color: rgb(226, 231, 231);
+  margin: 50px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(10, 3, 67, 0.3);
+  overflow: hidden;
+  padding: 20px;
+}
+
+#display {
+  height: 150px;
+  background-color: #4a1439;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #006666;
+  margin-bottom: 20px;
+  border-radius:15px;
+}
+
+#total {
+  color: white;
+  font-size: 48px;
+  text-align: right;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  word-break: break-all;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#buttons {
+  height: 450px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  height: 70px;
+}
+
+.btn {
+  flex: 1;
+  margin: 0 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.number {
+  background-color: #75aad9;
+  color: #333;
+}
+
+.number:hover {
+
+  background-color: #75acd9;
+}
+
+.operator {
+  background-color: #ee611b;
+  color: white;
+}
+
+.operator:hover {
+  background-color: #9dcee6;
+}
+
+.equals {
+  background-color: #9ddfe6;
+  color: white;
+  height: 155px;
+  margin-top: 0;
+}
+
+.equals:hover {
+  background-color: #e6c59d;
+}
+
+.clear {
+  background-color: #ce2b1c;
+  color: white;
+}
+
+.clear:hover {
+  background-color: #e6c59d;
+}
+
+.zero {
+  flex: 2;
+  margin-right: 10px;
+}
